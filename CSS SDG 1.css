@@ -1,0 +1,57 @@
+* {
+box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+margin: 0;
+padding: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+height: 100%;
+background-color: pink;
+}
+
+.himg {
+    width: 100%;
+}
+
+p {
+    margin-right: 10px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+.topnav a {
+        text-decoration: none;
+}
+a {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer {
+    background-image: linear-gradient(to right, rgba(144,186,224),rgba(144,186,224), rgba(246,186,194), rgba(192,115,237));
+    color: white;
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center; 
+}
+
+.isi {
+    margin: 20 ;
+}
